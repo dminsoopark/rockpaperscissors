@@ -56,9 +56,11 @@ function myFunction(button) {
     let playerSelection = button.value;
     console.log(playerSelection);
 }
+
+
 function game() {
         const answer = prompt(`Rock, Paper, or Scissors?`);
-        const playerSelection = document.getElementById()
+        // const playerSelection = document.getElementById()
         const computerSelection = getComputerChoice(choices);
         playRound(playerSelection, computerSelection);
         console.log(result);

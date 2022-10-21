@@ -50,9 +50,7 @@ function playRound(playerSelection, computerSelection) {
     return computerResult;
 }
 
-// console.log(playRound(playerSelection, computerSelection));
-// console.log(playerResult);
-// console.log(computerResult);
+
 function game() {
         const answer = prompt(`Rock, Paper, or Scissors?`);
         const playerSelection = answer.toLowerCase();

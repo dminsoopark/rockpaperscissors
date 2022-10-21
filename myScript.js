@@ -7,11 +7,6 @@ function getComputerChoice(arr) {
     return choice;
 }
 
-// const computerSelection = getComputerChoice(choices);
-// console.log(computerSelection);
-// const answer = prompt(`Rock, Paper, or Scissors?`);
-// const playerSelection = answer.toLowerCase();
-// console.log(playerSelection);
 let playerResult = 0;
 let computerResult = 0;
 
@@ -59,14 +54,12 @@ function playRound(playerSelection, computerSelection) {
 // console.log(playerResult);
 // console.log(computerResult);
 function game() {
-    for (let i = 0; i < 5; i++) {
         const answer = prompt(`Rock, Paper, or Scissors?`);
         const playerSelection = answer.toLowerCase();
         const computerSelection = getComputerChoice(choices);
         playRound(playerSelection, computerSelection);
         console.log(result);
         console.log("Player score:" + " " + playerResult + ", " + "Computer score:" + " " + computerResult);
-    }
     if (playerResult > computerResult) {
         console.log("Congratulations, you won!");
     }

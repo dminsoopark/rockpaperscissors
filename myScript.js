@@ -59,13 +59,13 @@ function myFunction(button) {
 
 const buttons = document.querySelectorAll('button');
 buttons.forEach((button) => {
-    button.addEventListener('click', function () { myFunction(button); })
+    button.addEventListener('click', function () { myFunction(button); });
 });
 
 
 function game() {
         // const answer = prompt(`Rock, Paper, or Scissors?`);
-        
+        const playerSelection = 
         const computerSelection = getComputerChoice(choices);
         playRound(playerSelection, computerSelection);
         console.log(result);

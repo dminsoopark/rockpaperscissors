@@ -65,7 +65,7 @@ buttons.forEach((button) => {
 
 function game() {
         // const answer = prompt(`Rock, Paper, or Scissors?`);
-        const playerSelection = 
+        const playerSelection = myFunction(button);
         const computerSelection = getComputerChoice(choices);
         playRound(playerSelection, computerSelection);
         console.log(result);

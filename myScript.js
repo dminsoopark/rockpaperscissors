@@ -53,13 +53,13 @@ function playRound(playerSelection, computerSelection) {
 
 
 function myFunction(button) {
-    let playerSelection = button.value;
-    return playerSelection;
+    let selection = button.value;
+    return selection;
 }
 
 const buttons = document.querySelectorAll('button');
 buttons.forEach((button) => {
-    button.addEventListener('click', function () { myFunction(button); });
+    button.addEventListener('click', playRound(playerSelection, computerSelection));
 });
 
 

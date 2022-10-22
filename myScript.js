@@ -64,7 +64,7 @@ buttons.forEach((button) => {
     button.addEventListener('click', playRound(playerSelection, computerSelection));
 });
 
-let playerSelection = button.value;
+let playerSelection = buttons.value;
 console.log(playerSelection);
 
 getComputerChoice(choices);

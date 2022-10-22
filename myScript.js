@@ -52,10 +52,10 @@ function playRound(playerSelection, computerSelection) {
 
 
 
-// function myFunction(button) {
-//     let playerSelection = button.value;
-//     return playerSelection;
-// }
+function myFunction(button) {
+    let playerSelection = button.value;
+    return playerSelection;
+}
 
 
 
@@ -64,8 +64,8 @@ buttons.forEach((button) => {
     button.addEventListener('click', playRound(playerSelection, computerSelection));
 });
 
-let playerSelection = buttons.value;
-console.log(playerSelection);
+
+console.log(myFunction(button));
 
 console.log(getComputerChoice(choices));
 

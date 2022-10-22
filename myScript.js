@@ -52,31 +52,39 @@ function playRound(playerSelection, computerSelection) {
 
 
 
-function myFunction(button) {
-    let playerSelection = button.value;
-    return playerSelection;
-}
+// function myFunction(button) {
+//     let playerSelection = button.value;
+//     return playerSelection;
+// }
+
+
 
 const buttons = document.querySelectorAll('button');
 buttons.forEach((button) => {
     button.addEventListener('click', playRound(playerSelection, computerSelection));
 });
 
+let playerSelection = button.value;
+console.log(playerSelection);
 
-function game() {
-        const computerSelection = getComputerChoice(choices);
-        const buttons = document.querySelectorAll('button');
-            buttons.forEach((button) => {
-                button.addEventListener('click', playRound(playerSelection, computerSelection));
-        });
-        console.log(result);
-        console.log("Player score:" + " " + playerResult + ", " + "Computer score:" + " " + computerResult);
-    if (playerResult > computerResult) {
-        console.log("Congratulations, you won!");
-    }
-    else {
-        console.log("Sorry, you lose!");
-    }
-}
+getComputerChoice(choices);
+console.log(choice);
 
-game();
+
+// function game() {
+//         const computerSelection = getComputerChoice(choices);
+//         const buttons = document.querySelectorAll('button');
+//             buttons.forEach((button) => {
+//                 button.addEventListener('click', playRound(playerSelection, computerSelection));
+//         });
+//         console.log(result);
+//         console.log("Player score:" + " " + playerResult + ", " + "Computer score:" + " " + computerResult);
+//     if (playerResult > computerResult) {
+//         console.log("Congratulations, you won!");
+//     }
+//     else {
+//         console.log("Sorry, you lose!");
+//     }
+// }
+
+// game();

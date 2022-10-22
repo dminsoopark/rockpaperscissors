@@ -53,9 +53,8 @@ function playRound(playerSelection, computerSelection) {
 
 
 function myFunction(button) {
-    let selection = button.value;
-    console.log(selection);
-    return selection;
+    let playerSelection = button.value;
+    return playerSelection;
 }
 
 const buttons = document.querySelectorAll('button');
@@ -66,7 +65,6 @@ buttons.forEach((button) => {
 
 function game() {
         const computerSelection = getComputerChoice(choices);
-        const playerSelection = myFunction();
         const buttons = document.querySelectorAll('button');
             buttons.forEach((button) => {
                 button.addEventListener('click', playRound(playerSelection, computerSelection));

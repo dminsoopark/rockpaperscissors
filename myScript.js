@@ -63,7 +63,8 @@ buttons.forEach((button) => {
     button.addEventListener('click', playRound(playerSelection, computerSelection));
 });
 
-
+const computerSelection = getComputerChoice(choices);
+console.log(computerSelection);
 
 // function game() {
 //         // const answer = prompt(`Rock, Paper, or Scissors?`);

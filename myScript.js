@@ -67,8 +67,8 @@ buttons.forEach((button) => {
 let playerSelection = buttons.value;
 console.log(playerSelection);
 
-getComputerChoice(choices);
-console.log(choice);
+console.log(getComputerChoice(choices));
+
 
 
 // function game() {

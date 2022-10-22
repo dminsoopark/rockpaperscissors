@@ -65,7 +65,7 @@ buttons.forEach((button) => {
 });
 
 
-console.log(myFunction(button));
+console.log(myFunction(buttons));
 
 console.log(getComputerChoice(choices));
 

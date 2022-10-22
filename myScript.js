@@ -7,6 +7,8 @@ function getComputerChoice(arr) {
     return choice;
 }
 
+console.log(getComputerChoice(choices));
+
 // let playerResult = 0;
 // let computerResult = 0;
 

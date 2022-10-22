@@ -63,7 +63,7 @@ buttons.forEach((button) => {
     button.addEventListener('click', playRound(playerSelection, computerSelection));
 });
 
-const tempFunction(myFunction(), getComputerChoice()) {
+const tempFunction(myFunction(buttons), getComputerChoice(choices)) {
     console.log(selection);
     console.log(choice);
 }

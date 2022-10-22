@@ -63,10 +63,7 @@ buttons.forEach((button) => {
     button.addEventListener('click', playRound(playerSelection, computerSelection));
 });
 
-const tempFunction(myFunction(buttons), getComputerChoice(choices)) {
-    console.log(selection);
-    console.log(choice);
-}
+
 
 // function game() {
 //         // const answer = prompt(`Rock, Paper, or Scissors?`);

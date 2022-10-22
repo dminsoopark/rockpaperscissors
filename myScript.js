@@ -63,19 +63,19 @@ buttons.forEach((button) => {
 });
 
 
-function game() {
-        // const answer = prompt(`Rock, Paper, or Scissors?`);
-        const playerSelection = myFunction(buttons);
-        const computerSelection = getComputerChoice(choices);
-        playRound(playerSelection, computerSelection);
-        console.log(result);
-        console.log("Player score:" + " " + playerResult + ", " + "Computer score:" + " " + computerResult);
-    if (playerResult > computerResult) {
-        console.log("Congratulations, you won!");
-    }
-    else {
-        console.log("Sorry, you lose!");
-    }
-}
+// function game() {
+//         // const answer = prompt(`Rock, Paper, or Scissors?`);
+//         const playerSelection = myFunction(buttons);
+//         const computerSelection = getComputerChoice(choices);
+//         playRound(playerSelection, computerSelection);
+//         console.log(result);
+//         console.log("Player score:" + " " + playerResult + ", " + "Computer score:" + " " + computerResult);
+//     if (playerResult > computerResult) {
+//         console.log("Congratulations, you won!");
+//     }
+//     else {
+//         console.log("Sorry, you lose!");
+//     }
+// }
 
-game();
+// game();

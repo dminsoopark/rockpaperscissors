@@ -9,11 +9,12 @@ function getComputerChoice(arr) {
 
 console.log(getComputerChoice(choices));
 
-const btn = document.querySelector('#rock');
-btn.addEventListener('click', () => {
+function myFunction() {
     let playerSelection = document.getElementById("rock").value;
-});
+    document.getElementById("container").innerHTML = playerSelection;
+}
 
+console.log(playerSelection);
 
 
 // let playerResult = 0;

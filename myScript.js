@@ -9,15 +9,9 @@ function getComputerChoice(arr) {
 
 console.log(getComputerChoice(choices));
 
-let playerSelection;
-
-function myFunction() {
-    let playerSelection = document.getElementById("rock").value;
-    document.getElementById("container").innerHTML = playerSelection;
-    return playerSelection;
-}
-
-console.log(myFunction());
+window.addEventListener('click', function(e) {
+    console.log(e);
+});
 
 
 // let playerResult = 0;

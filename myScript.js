@@ -10,7 +10,7 @@ function getComputerChoice(arr) {
 console.log(getComputerChoice(choices));
 
 window.addEventListener('click', function(e) {
-    console.log(e);
+    console.log(e.value);
 });
 
 

@@ -9,13 +9,16 @@ function getComputerChoice(arr) {
 
 console.log(getComputerChoice(choices));
 
+let playerSelection;
+
 const buttons = document.querySelectorAll('button');
 buttons.forEach((button) => {
     button.addEventListener('click', () => {
-        alert(button.id);
+        playerSelection = button.id;
     });
 });
 
+console.log(playerSelection);
 
 // let playerResult = 0;
 // let computerResult = 0;

@@ -9,6 +9,14 @@ function getComputerChoice(arr) {
 
 console.log(getComputerChoice(choices));
 
+const rock = document.querySelector(".rock");
+
+rock.addEventListener("click", e => {
+    console.log(e);
+})
+
+
+
 // let playerResult = 0;
 // let computerResult = 0;
 

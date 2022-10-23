@@ -13,7 +13,7 @@ const rock = document.querySelector("button");
 
 rock.addEventListener("click", e => {
     console.log(e);
-})
+});
 
 
 

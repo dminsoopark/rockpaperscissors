@@ -14,9 +14,10 @@ let playerSelection;
 function myFunction() {
     let playerSelection = document.getElementById("rock").value;
     document.getElementById("container").innerHTML = playerSelection;
+    return playerSelection;
 }
 
-console.log(playerSelection);
+console.log(myFunction());
 
 
 // let playerResult = 0;

@@ -9,7 +9,8 @@ function getComputerChoice(arr) {
 
 console.log(getComputerChoice(choices));
 
-button.addEventListener('click', function(e) {
+const buttons = document.querySelectorAll('button');
+buttons.addEventListener('click', function(e) {
     console.log(e.value);
 });
 

@@ -23,48 +23,46 @@ let playerResult = 0;
 let computerResult = 0;
 
 
+function playRound(playerSelection, computerSelection) {
+
+    if (playerSelection === computerSelection) {
+        return result = "You tie! Try again";
+        playRound();
+    }
+    else if (playerSelection === 'rock' && computerSelection === 'scissors') {
+        playerResult += 1;
+        return result = "Congrats, you won!";
+    }
+    else if (playerSelection === 'rock' && computerSelection === `paper`) {
+        computerResult += 1;
+        return result = "You lose! Paper beats rock";
+        
+    }
+    else if (playerSelection === 'scissors' && computerSelection === 'rock') {
+        computerResult += 1;
+        return result = "You lose! Rock beats scissors";
+        
+    }
+    else if (playerSelection === 'scissors' && computerSelection === 'paper') {
+        playerResult += 1;
+        return result = "Congrats, you won!";
+        
+    }
+    else if (playerSelection === 'paper' && computerSelection === 'rock') {
+        playerResult += 1;
+        return result = "congrats, you won!";
+        
+    }
+    else {
+        computerResult += 1;
+        return result = "You lose! Scissors beats paper";
+        
+    }
+    return playerResult;
+    return computerResult;
+}
 
 
-
-
-// function playRound(playerSelection, computerSelection) {
-
-//     if (playerSelection === computerSelection) {
-//         return result = "You tie! Try again";
-//         playRound();
-//     }
-//     else if (playerSelection === 'rock' && computerSelection === 'scissors') {
-//         playerResult += 1;
-//         return result = "Congrats, you won!";
-//     }
-//     else if (playerSelection === 'rock' && computerSelection === `paper`) {
-//         computerResult += 1;
-//         return result = "You lose! Paper beats rock";
-        
-//     }
-//     else if (playerSelection === 'scissors' && computerSelection === 'rock') {
-//         computerResult += 1;
-//         return result = "You lose! Rock beats scissors";
-        
-//     }
-//     else if (playerSelection === 'scissors' && computerSelection === 'paper') {
-//         playerResult += 1;
-//         return result = "Congrats, you won!";
-        
-//     }
-//     else if (playerSelection === 'paper' && computerSelection === 'rock') {
-//         playerResult += 1;
-//         return result = "congrats, you won!";
-        
-//     }
-//     else {
-//         computerResult += 1;
-//         return result = "You lose! Scissors beats paper";
-        
-//     }
-//     return playerResult;
-//     return computerResult;
-// }
 
 
 

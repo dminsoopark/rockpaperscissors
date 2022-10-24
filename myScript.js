@@ -19,6 +19,7 @@ buttons.forEach((button) => {
     });
 });
 
+console.log(playerSelection);
 
 // let playerResult = 0;
 // let computerResult = 0;

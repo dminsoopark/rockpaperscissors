@@ -10,11 +10,11 @@ function getComputerChoice(arr) {
 console.log(getComputerChoice(choices));
 
 let playerSelection;
-
 const buttons = document.querySelectorAll('button');
+
 buttons.forEach((button) => {
     button.addEventListener('click', () => {
-        playerSelection = button.id;
+        playerSelection = button.value;
         console.log(playerSelection);
     });
 });

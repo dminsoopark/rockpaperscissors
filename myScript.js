@@ -9,38 +9,22 @@ function getComputerChoice(arr) {
 
 console.log(getComputerChoice(choices));
 
-let playerSelection;
+
 const buttons = document.querySelectorAll('button');
 
-buttons.forEach((button) => {
+let playerSelection = buttons.forEach((button) => {
     button.addEventListener('click', () => {
         playerSelection = button.value;
         console.log(playerSelection);
     });
 });
 
-
-
-// let playerResult = 0;
-// let computerResult = 0;
-
-
-// function myFunction(button) {
-//     let playerSelection = button.value;
-//     return playerSelection;
-// }
+let playerResult = 0;
+let computerResult = 0;
 
 
 
-// const buttons = document.querySelectorAll('button');
-// buttons.forEach((button) => {
-//     button.addEventListener('click', playRound(playerSelection, computerSelection));
-// });
 
-
-// console.log(myFunction(buttons));
-
-// console.log(getComputerChoice(choices));
 
 
 // function playRound(playerSelection, computerSelection) {

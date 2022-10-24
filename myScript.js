@@ -15,9 +15,10 @@ const buttons = document.querySelectorAll('button');
 let playerSelection = buttons.forEach((button) => {
     button.addEventListener('click', () => {
         playerSelection = button.value;
-        console.log(playerSelection);
     });
 });
+
+console.log(playerSelection);
 
 let playerResult = 0;
 let computerResult = 0;
